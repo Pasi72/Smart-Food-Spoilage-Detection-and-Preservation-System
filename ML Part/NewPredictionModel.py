@@ -34,7 +34,7 @@ def calculate_spoilage_index(temperature, humidity, gas, elapsed_time):
 
     return risk
 
-# These remaining time and risk thresholds might be changed
+# These remaining time and risk thresholds might be changed according to the environmental conditions
 def food_status(remaining_time, risk):
 
     if remaining_time > 12 and risk < 30:
